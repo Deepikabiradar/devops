@@ -1,0 +1,24 @@
+1.in azure no auto failover in aws it's possible to failover to standby instance
+2.there are no app services equivalent 
+
+-install git at linux
+sudo yum update--update os
+sudo yum install git--install git
+mk dir devops
+git int--initilize git inside specific dir
+git status--check the status
+nano 1.txt--create file
+git add .--add the above created 1.txt file into the repositery
+git commit -m "Second commit"--comit the file
+git remote add origin "https://github.com/bvbiradar/devops-course"--link to our git public github
+git push origin master--make private files visible to public
+git pull origin master--pull the files from public github
+mk dir test--if we want to configure to another public git hun
+git clone "https://github.com/Deepikabiradar/devops"--
+git branch feature1--create branch
+git branch--list branch
+git branch -D feature1--delete branch
+git checkout feature1--change to feature1
+git stash--to make sure branch code changes should not be reflacted at master, run this command at branch
+git stash pop--come back to your working state (wn u move to master and come back to feature u may see your changes lost to avoid that run this)
+git revert <commit id> (commit id should be taken from last Head 
